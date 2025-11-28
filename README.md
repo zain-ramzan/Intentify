@@ -1,5 +1,6 @@
-# Intentify
-Translate network security natural-language requirements into a compact, validated intent JSON.
+# Intentify (Natural Language to Network Intent Translator)
+
+A compact tool and demo that converts administrator natural-language security requirements into a simple, structured intent language (JSON). Built with Hugging Face LLMs for translation, JSON Schema for validation, and Streamlit for an interactive web demo. Purpose: show an end-to-end NL→Intent pipeline and demonstrate prompt engineering + basic assurance via schema checks.
 
 ## Quick start
 1. Create a virtual environment and activate it.
