@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NetworkIntent",
+  "type": "object",
+  "required": [
+    "action",
+    "protocol",
+    "source",
+    "destination"
+  ],
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "allow",
+        "deny",
+        "audit",
+        "rate-limit"
+      ]
+    },
+    "protocol": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
