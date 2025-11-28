@@ -14,14 +14,20 @@ Demonstrates NL → intent translation and schema validation - core capabilities
 
 ## Quick Start (local)
 1. Clone:
+   ```
    git clone https://github.com/zain-ramzan/intentify.git
+   ```
 2. Create venv and install:
+   ```
    python -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
+   ```
 3. Put your HF model name in `config.py` (default: "google/flan-t5-large")
 4. Run:
+   ```
    streamlit run app.py
+   ```
 
 ## Usage
 - Type a security requirement (e.g., "Block SSH from finance VLAN to internet")
